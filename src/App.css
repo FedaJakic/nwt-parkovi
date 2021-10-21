@@ -1,3 +1,9 @@
+:root{
+    --navTextColour: white;
+    --navBackgroundColour: #2f90a1;
+    --navHighlightColour: #3a9ee1;
+}
+
 *{
     padding: 0;
     margin: 0;

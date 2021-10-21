@@ -17,9 +17,14 @@ class Header extends React.Component<HeaderProps, HeaderState> {
     render() { 
         return (
             <React.Fragment>
-                <div className={styles.primaryNavigation}>Početna</div> 
-                <div className={styles.primaryNavigation}>Nacionalni parkovi</div>
-                <div className={styles.primaryNavigation}>Komentari</div> 
+                <nav>
+                    <ul className={styles.navContainer}>
+                        <li className={styles.primaryNavigation}>Početna</li> 
+                        <li className={styles.primaryNavigation + ' ' + styles.middleElement}>Nacionalni parkovi</li>
+                        <li className={styles.primaryNavigation}>Komentari</li> 
+                    </ul>        
+                </nav>
+                
             </React.Fragment> 
             
          );

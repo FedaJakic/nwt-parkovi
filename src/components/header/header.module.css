@@ -1,0 +1,35 @@
+nav{
+    background-color: var(--navBackgroundColour);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.navContainer{
+    margin: 21px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+ul > li{
+    list-style-type: none; 
+}
+
+.middleElement{
+    border-left: 3px solid var(--navHighlightColour);
+    border-right: 3px solid var(--navHighlightColour);
+}
+
+.primaryNavigation{
+    color: var(--navTextColour);
+    font-family: 'Dancing Script';
+    font-size: 24px;
+    padding: 4px 36px;
+}
+
+.primaryNavigation:hover{
+    color: var(--navHighlightColour);
+}
