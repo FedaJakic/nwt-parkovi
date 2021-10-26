@@ -32,4 +32,5 @@ ul > li{
 
 .primaryNavigation:hover{
     color: var(--navHighlightColour);
+    cursor: pointer;
 }
