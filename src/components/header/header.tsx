@@ -1,4 +1,5 @@
 import React from 'react';
+import Dropdown from './dropdown';
 import styles from './header.module.css';
 
 interface HeaderProps {
@@ -19,8 +20,8 @@ class Header extends React.Component<HeaderProps, HeaderState> {
             <React.Fragment>
                 <nav>
                     <ul className={styles.navContainer}>
-                        <li className={styles.primaryNavigation}>Početna</li> 
-                        <li className={styles.primaryNavigation + ' ' + styles.middleElement}>Nacionalni parkovi</li>
+                        <li className={styles.primaryNavigation}>Početna</li>               
+                        <Dropdown />
                         <li className={styles.primaryNavigation}>Komentari</li> 
                     </ul>        
                 </nav>

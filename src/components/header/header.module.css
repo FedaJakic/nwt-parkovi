@@ -14,10 +14,6 @@ nav{
     align-items: center;
 }
 
-ul > li{
-    list-style-type: none; 
-}
-
 .middleElement{
     border-left: 3px solid var(--navHighlightColour);
     border-right: 3px solid var(--navHighlightColour);
@@ -28,6 +24,7 @@ ul > li{
     font-family: 'Dancing Script';
     font-size: 24px;
     padding: 4px 36px;
+    list-style-type: none; 
 }
 
 .primaryNavigation:hover{

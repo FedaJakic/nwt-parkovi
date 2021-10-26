@@ -1,0 +1,14 @@
+.dropdownList > li {
+    list-style-type: none; 
+    color: var(--navTextColour);
+    font-family: 'Dancing Script';
+    font-size: 24px;
+    padding: 4px 12px;
+}
+
+.dropdownList{
+    margin: 21px;
+    padding: 16px 32px;
+    position: absolute;
+    background-color: var(--navBackgroundColour);
+}
